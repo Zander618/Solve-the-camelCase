@@ -5,7 +5,6 @@
   }
 
 .map {
-    background-image: url("https://github.com/Zander618/Solve-the-camelCase/blob/main/Kanto%20Map%202.jpeg?raw=true");
     height:650px;
     margin-left:auto;
     margin-right:auto;
@@ -17,6 +16,69 @@
 #boulder {
     position: absolute;
     top: 93px;
+    left: 176px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#cascade {
+    position: absolute;
+    top: 93px;
+    left: 563px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#thunder {
+    position: absolute;
+    top: 322px;
+    left: 563px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#rainbow {
+    position: absolute;
+    top: 213px;
+    left: 407px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#soul {
+    position: absolute;
+    top: 464px;
+    left: 478px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#marsh {
+    position: absolute;
+    top: 215px;
+    left: 563px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#volcano {
+    position: absolute;
+    top: 567px;
+    left: 176px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+}
+
+#earth {
+    position: absolute;
+    top: 294px;
     left: 176px;
     width: 60px;
     height: 60px;
