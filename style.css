@@ -1,3 +1,22 @@
 body{
     background: blue;
 }
+
+#map {
+    background-image: url("https://github.com/Zander618/Solve-the-camelCase/blob/main/Kanto%20Map%202.jpeg?raw=true");
+    height:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    width:1200px;
+    z-index: 1;
+}
+
+#boulder {
+    position: absolute;
+    top: 80px;
+    left: 10 px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
