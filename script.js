@@ -1,4 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const clickBoulder = document.getElementById("boulder");
 
-document.querySelector("body").appendChild(h2);
+clickBoulder.addEventListener ('click', function() {
+    alert ("i was clicked");
+});
