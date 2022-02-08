@@ -1,3 +1,7 @@
+.document {
+    background-color: blue ;
+}
+
 .parent {
     position: relative;
     top: 0;
@@ -96,7 +100,7 @@
 }
 
 #yellow-2 {
-    display: block;
+    display: none;
     position: absolute;
     top: 91px;
     left: 562px;
@@ -106,7 +110,7 @@
 }
 
 #yellow-3 {
-    display: block;
+    display: none;
     position: absolute;
     top: 319px;
     left: 561px;
@@ -116,7 +120,7 @@
 }
 
 #yellow-4 {
-    display: block;
+    display: none;
     position: absolute;
     top: 210px;
     left: 404px;
@@ -126,7 +130,7 @@
 }
 
 #yellow-5 {
-    display: block;
+    display: none;
     position: absolute;
     top: 460px;
     left: 476px;
@@ -136,7 +140,7 @@
 }
 
 #yellow-6 {
-    display: block;
+    display: none;
     position: absolute;
     top: 214px;
     left: 561px;
@@ -146,7 +150,7 @@
 }
 
 #yellow-7 {
-    display: block;
+    display: none;
     position: absolute;
     top: 564px;
     left: 173px;
@@ -156,7 +160,7 @@
 }
 
 #yellow-8 {
-    display: block;
+    display: none;
     position: absolute;
     top: 291px;
     left: 172px;
@@ -164,3 +168,19 @@
     height: 65px;
     z-index: 2;
 }
+
+#clue {
+    float: right;
+    top: 100px;
+    background-color: aqua;
+}
+
+#psyduck{
+    position: absolute;
+    top: 264px;
+    left: 470px;
+    width: 92px;
+    height: 20px;
+    z-index: 2; 
+}
+
