@@ -146,8 +146,10 @@ function displayElite4() {
   }
 };
 
+const music = document.getElementsByName("audio controls");
+
 elite4.addEventListener("click", youAreTheChampion);
 
 function youAreTheChampion() {
-  
-}
+  music.play();
+};
