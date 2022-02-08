@@ -132,3 +132,22 @@ function highlight8() {
       return yellow8.style.display = "none"
   }
 };
+
+//function9
+const elite4 = document.getElementById("elite4");
+
+earth.addEventListener('click', displayElite4);
+
+function displayElite4() {  
+  if (yellow8.style.display === "block"){
+  return elite4.style.display = "block";
+  } else { 
+      return elite4.style.display = "none"
+  }
+};
+
+elite4.addEventListener("click", youAreTheChampion);
+
+function youAreTheChampion() {
+  
+}
