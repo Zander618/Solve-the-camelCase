@@ -194,3 +194,6 @@
     z-index: 3;
 }
 
+h2{
+    visibility: hidden;
+}
