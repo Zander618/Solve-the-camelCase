@@ -153,3 +153,12 @@ function youAreTheChampion() {
 };
 
 elite4.addEventListener("click", youAreTheChampion);
+
+//last function
+const champion = document.getElementById("champion");
+
+function displayChampion(){
+  champion.style.display = "block";
+}
+
+elite4.addEventListener("click", displayChampion);
